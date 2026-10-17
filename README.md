@@ -22,21 +22,7 @@ This mattered to me because a coherent storefront feels more like a small boutiq
 
 ## My workflow
 
-```text
-Original product photo
-        ↓
-ChatGPT image editing
-        ↓
-Background and lighting refinement
-        ↓
-Virtual try-on, when useful
-        ↓
-Human review for accuracy
-        ↓
-Lithuanian + English product description
-        ↓
-Marketplace-ready listing
-```
+Original product photo → ChatGPT image editing → background and lighting refinement → virtual try-on, when useful → human review for accuracy → Lithuanian + English product description → marketplace-ready listing.
 
 ### 1. ChatGPT image editing
 
@@ -81,18 +67,23 @@ This is an observed outcome, not proof that AI alone caused the difference. Pric
 
 What started as a way to avoid taking endless clothing photos became a small e-commerce experiment. Apparently, my wardrobe now has a marketing strategy of its own. 🙂
 
+## Included skill
+
+This repository also includes [marketplace-listing-workflow](skills/marketplace-listing-workflow/SKILL.md), a reusable workflow for preparing secondhand listings with consistent visuals, bilingual descriptions, table tracking, accuracy checks, and draft-first publishing.
+
 ## Repository structure
 
-```text
 .
 ├── README.md
 ├── LICENSE
+├── skills/
+│   └── marketplace-listing-workflow/
+│       └── SKILL.md
 └── images/
     ├── README.md
     ├── before-after-lindex-jeans.png
     └── cover.png
-```
 
 ## License
 
-The written case study and repository documentation are available under the MIT License. The license does not grant rights to third-party photographs, personal images, marketplace screenshots, or other assets added to `images/`.
+The written case study and repository documentation are available under the MIT License. The license does not grant rights to third-party photographs, personal images, marketplace screenshots, or other assets added to images/.
