@@ -1,29 +1,29 @@
 ---
 name: marketplace-listing-workflow
-description: Организует подготовку вещей к продаже на площадках объявлений: визуалы, единый стиль, облачное хранение, таблица, тексты и черновики публикаций.
+description: "Organizes the preparation of items for sale on online marketplaces: visuals, consistent styling, cloud storage, tracking, copy, and draft listings."
 ---
 
-# Marketplace listing workflow
+# Marketplace Listing Workflow
 
-## Алгоритм работы
+## Workflow
 
-1. Собрать исходные данные: фото, бренд, размер, цвет, материал, состояние, особенности посадки и длины.
-2. Изучить референсы пользователя и зафиксировать визуальные правила: отдельные фотографии, без коллажей; если есть фото на человеке, первым ставить его, затем показывать вещь отдельно и детали.
-3. Создать или использовать отдельную папку на облачном диске. Для каждой вещи хранить финальные изображения с понятными именами.
-4. Сделать визуалы в едином стиле. Сохранять реальную форму вещи, длину, посадку, цвет, детали, фурнитуру и состояние. Не добавлять несуществующие карманы, манжеты, пуговицы, принты или другие детали.
-5. Перед массовой обработкой сделать одну тестовую карточку и показать её пользователю. Остальные карточки делать после подтверждения стиля.
-6. Для карточек с моделью скрывать лицо, если пользователь этого просит. Менять позы и локации естественно; не использовать зеркальный кадр в месте, где зеркало физически невозможно.
-7. Сохранять порядок фотографий: сначала фото на человеке или главное фото вещи, затем фото самой вещи, далее детали, бирка и состояние. Коллажи не создавать.
-8. Создать или обновить таблицу. Минимальные поля: название вещи, бренд, размер, состояние, описание на литовском, описание на английском, ссылки на изображения, цена, статус и заметки.
-9. Писать описания на литовском и английском только по подтверждённым фактам. Не упоминать генерацию изображений, ИИ, внутренний процесс или этот алгоритм в тексте объявления.
-10. Перед загрузкой проверить каждую карточку: соответствие вещи исходным фото, правильный размер, длина, цвет, бренд, порядок фотографий, отсутствие артефактов и лишних утверждений.
-11. Загружать объявления только после явного подтверждения пользователя. Сохранять их как Draft, если пользователь не попросил опубликовать.
-12. После загрузки проверить, что новые фотографии действительно прикрепились к нужному объявлению, а не осталась старая версия. При необходимости открыть объявление и сверить превью вручную.
-13. Учитывать статусы вещей в таблице: активна, draft, опубликована, продана, подарена, оставлена себе. Подаренные и оставленные себе вещи не считать активными товарами.
+1. Collect source information: photos, brand, size, colour, material, condition, fit, and length details.
+2. Review the user's references and document visual rules: use separate photos, no collages; if a model photo exists, place it first, then show the item separately and include detail shots.
+3. Create or use a dedicated cloud-drive folder. Store final images for each item with clear filenames.
+4. Create visuals in a consistent style. Preserve the real shape, length, fit, colour, details, hardware, and condition. Do not add pockets, cuffs, buttons, prints, or other details that do not exist.
+5. Before processing multiple items, create one test listing card and show it to the user. Create the remaining cards only after the style is approved.
+6. For model images, hide the face if requested by the user. Vary poses and locations naturally; do not use a mirror shot where a mirror would be physically impossible.
+7. Preserve photo order: model or primary item photo first, then the item by itself, followed by details, label, and condition. Do not create collages.
+8. Create or update a tracking table. Minimum fields: item name, brand, size, condition, Lithuanian description, English description, image links, price, status, and notes.
+9. Write Lithuanian and English descriptions based only on confirmed facts. Do not mention image generation, AI, the internal workflow, or this algorithm in listing copy.
+10. Before upload, check every listing card: match with source photos, correct size, length, colour, brand, photo order, no artefacts, and no unsupported claims.
+11. Upload listings only after explicit user confirmation. Save them as drafts unless the user asks to publish.
+12. After upload, check that the new photos are attached to the correct listing and that an older version was not left in place. Open the listing and compare previews manually when needed.
+13. Track item statuses in the table: active, draft, published, sold, gifted, or kept. Do not count gifted or kept items as active inventory.
 
-## Ограничения
+## Constraints
 
-- Не публиковать объявления без отдельного подтверждения пользователя.
-- Не менять фактические свойства товара ради более привлекательного изображения.
-- Не заменять одобренное пользователем фото другой версией без согласования.
-- Если исходных данных недостаточно, отметить неизвестное поле и запросить его у пользователя, а не додумывать.
+- Do not publish listings without separate user confirmation.
+- Do not change factual product properties to make an image more attractive.
+- Do not replace a user-approved photo with another version without agreement.
+- If source data is incomplete, mark the field as unknown and ask the user instead of guessing.
