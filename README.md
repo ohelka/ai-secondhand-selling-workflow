@@ -2,6 +2,8 @@
 
 ## How AI Helped Me Sell Secondhand Clothes for 11% Above Market Price
 
+![AI-Powered Secondhand Selling](images/cover.png)
+
 Selling clothes on one of Europe's most popular secondhand marketplaces looked simple at first. In practice, every item needed good photos, a useful description, measurements, and sometimes a visual showing how it looked when worn.
 
 I did not want to arrange a mini photoshoot every time I wanted to sell a sweater or a pair of trousers. So I turned the process into a small, repeatable AI-powered e-commerce experiment.
@@ -46,7 +48,9 @@ After the visuals are ready, I provide the factual product information: brand, s
 
 ## Before / After gallery
 
-The visual examples have been removed from the public repository to keep personal images private. The original photos remain part of the private working materials.
+For this example, the original flat-lay photo shows the actual Lindex jeans. The after visual shows the same pair styled on a model. The comparison is illustrative: the original photo remains the source of truth for colour, condition, and product details.
+
+![Before / After — Lindex jeans](images/before-after-lindex-jeans.png)
 
 ## Observed result
 
@@ -65,10 +69,11 @@ What started as a way to avoid taking endless clothing photos became a small e-c
 
 ## Included skill
 
-This repository also includes [marketplace-listing-workflow](skills/marketplace-listing-workflow/SKILL.md), a reusable workflow for preparing secondhand listings with consistent visuals, bilingual descriptions, table tracking, accuracy checks, and draft-first publishing.
+This repository also includes [`marketplace-listing-workflow`](skills/marketplace-listing-workflow/SKILL.md), a reusable workflow for preparing secondhand listings with consistent visuals, bilingual descriptions, table tracking, accuracy checks, and draft-first publishing.
 
 ## Repository structure
 
+```text
 .
 ├── README.md
 ├── LICENSE
@@ -76,8 +81,11 @@ This repository also includes [marketplace-listing-workflow](skills/marketplace-
 │   └── marketplace-listing-workflow/
 │       └── SKILL.md
 └── images/
-    └── README.md
+    ├── README.md
+    ├── before-after-lindex-jeans.png
+    └── cover.png
+```
 
 ## License
 
-The written case study and repository documentation are available under the MIT License. The license does not grant rights to third-party photographs, personal images, marketplace screenshots, or other assets added to images/.
+The written case study and repository documentation are available under the MIT License. The license does not grant rights to third-party photographs, personal images, marketplace screenshots, or other assets added to `images/`.
